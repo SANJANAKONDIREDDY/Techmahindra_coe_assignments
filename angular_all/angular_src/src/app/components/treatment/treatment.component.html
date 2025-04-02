@@ -1,0 +1,14 @@
+<div class="container">
+  <h2 class="title">Treatments Available</h2>
+
+  <div class="treatment-grid">
+    <div class="treatment-card" *ngFor="let treatment of treatments; let i = index">
+      <div class="treatment-info">
+        <h3>{{ treatment.name }}</h3>
+        <p>Cost: ₹{{ treatment.cost }}</p>
+        <p>Doctor: {{ getDoctorName(treatment.doctorId) }}</p>
+      </div>
+      <button (click)="removeTreatment(i)" class="delete-btn">❌</button>
+    </div>
+  </div>
+</div>

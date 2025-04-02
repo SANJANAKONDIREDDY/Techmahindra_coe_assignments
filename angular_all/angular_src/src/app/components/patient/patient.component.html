@@ -1,0 +1,37 @@
+<div class="patient-container">
+    <h1>🦷 Our Patients</h1>
+  
+    <!-- Patient Form -->
+    <div class="patient-form">
+      <h2>Add a New Patient</h2>
+      <input type="text" [(ngModel)]="name" placeholder="Enter Patient Name" />
+      <input type="number" [(ngModel)]="age" placeholder="Enter Patient Age" />
+      <button (click)="addPatient()">Add Patient</button>
+    </div>
+  
+    <!-- Patient List -->
+    <div class="patient-list">
+      <h2>Patient Records</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let patient of patients; let i = index">
+            <td>{{ i + 1 }}</td>
+            <td>{{ patient.name }}</td>
+            <td>{{ patient.age }}</td>
+            <td>
+              <button class="delete-btn" (click)="deletePatient(i)">🗑️ Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  

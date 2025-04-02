@@ -1,0 +1,93 @@
+/* Container */
+.patient-container {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background-color: #eef7fa;
+    color: #333;
+  }
+  
+  /* Form Styles */
+  .patient-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  
+  .patient-form h2 {
+    color: #0077b6;
+  }
+  
+  .patient-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .patient-form button {
+    background: #0077b6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .patient-form button:hover {
+    background: #005a8e;
+  }
+  
+  /* Table Styles */
+  .patient-list {
+    margin-top: 20px;
+  }
+  
+  .patient-list h2 {
+    color: #0077b6;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  th {
+    background: #0077b6;
+    color: white;
+  }
+  
+  td {
+    color: #333;
+  }
+  
+  /* Delete Button */
+  .delete-btn {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .delete-btn:hover {
+    background: #cc0000;
+  }
+  

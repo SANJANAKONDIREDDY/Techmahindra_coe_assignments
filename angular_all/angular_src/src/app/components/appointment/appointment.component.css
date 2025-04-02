@@ -1,0 +1,45 @@
+/* appointment.component.css */
+.appointment-tile {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Adjust width as needed */
+    background-color: white; /* Add white background */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left; /* Align labels and inputs to the left */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="time"] {
+    width: calc(100% - 12px); /* Adjust width to account for padding */
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }

@@ -1,0 +1,8 @@
+<h1>Doctors List</h1>
+<div class="doctor-tiles">
+  <div class="doctor-tile" *ngFor="let doctor of doctors">
+    <h2>{{ doctor.name }}</h2>
+    <p><strong>Specialization:</strong> {{ doctor.specialization }}</p>
+    <p><strong>Contact:</strong> {{ doctor.contact }}</p>
+  </div>
+</div>
