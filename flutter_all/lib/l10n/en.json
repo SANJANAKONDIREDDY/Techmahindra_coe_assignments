@@ -1,0 +1,13 @@
+{
+    "app_title": "StressOmeter",
+    "how_stressed": "How Stressed Are We Today?",
+    "submit": "Submit",
+    "select_date": "Select Date",
+    "select_stress_level": "Select Stress Level",
+    "stress_cause": "What caused your stress?",
+    "suggestion": "Suggestion",
+    "low_stress": "Try listening to music or taking a short walk.",
+    "medium_stress": "Practice deep breathing or mindfulness meditation.",
+    "high_stress": "Talk to a friend, take a break, or try journaling."
+  }
+  

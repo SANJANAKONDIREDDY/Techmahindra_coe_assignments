@@ -1,0 +1,13 @@
+{
+  "enter_cause": "Please enter a cause",
+  "cause_stress": "Cause of Stress",
+  "select_date": "Select Date",
+  "stress_deleted": "Stress entry deleted!",
+  "app_title": "StressOmeter",
+  "how_stressed_today": "How Stressed Are We Today?",
+  "no_data_found": "No past data found.",
+  "stress_level": "Stress Level",
+  "cause": "Cause",
+  "submit": "Submit",
+  "stress_saved": "Stress entry saved!"
+}
